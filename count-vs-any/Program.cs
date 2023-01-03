@@ -1,9 +1,6 @@
-﻿// See https://aka.ms/new-console-template for more information
-using BenchmarkDotNet.Attributes;
+﻿using BenchmarkDotNet.Attributes;
 using BenchmarkDotNet.Jobs;
 using BenchmarkDotNet.Running;
-
-Console.WriteLine("Hello, World!");
 
 BenchmarkRunner.Run<CountVsAny>();
 
@@ -41,7 +38,6 @@ public class CountVsAny
     {
         return items.Where(x => x == 100).Count() != 0;
     }
-
 
     [Benchmark]
 	public bool IsItem100ExistsAny1()
