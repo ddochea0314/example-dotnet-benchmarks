@@ -3,6 +3,7 @@
 - 특정 조건에 대한 값이 존재하는지 유무를 따질 땐, `Count()` 보단 `Any()`를 사용하는 것이 좋다.
 - 조건은 `Where()`로 처리하는게 더 유리하다.
 
+## 벤치마크 환경
 ``` ini
 
 BenchmarkDotNet=v0.13.3, OS=Windows 11 (10.0.22000.1335/21H2)
@@ -12,7 +13,7 @@ Intel Core i7-6700 CPU 3.40GHz (Skylake), 1 CPU, 8 logical and 4 physical cores
   .NET 6.0 : .NET 6.0.12 (6.0.1222.56807), X64 RyuJIT AVX2
   .NET 7.0 : .NET 7.0.1 (7.0.122.56804), X64 RyuJIT AVX2
 
-
+## 벤치마크 결과
 ```
 |                Method |      Job |  Runtime |        Mean |      Error |     StdDev |      Median |   Gen0 | Allocated |
 |---------------------- |--------- |--------- |------------:|-----------:|-----------:|------------:|-------:|----------:|
