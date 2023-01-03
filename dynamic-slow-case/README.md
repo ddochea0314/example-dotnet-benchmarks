@@ -1,9 +1,10 @@
-﻿# dynamic-slow-case
+# dynamic-slow-case
 
 - 느리다. 가급적 쓰지 않는게 좋다.
 - 안느릴 수 있는 케이스를 찾기가 어렵다.
 - 그나마 ()를 이용한 cast 보단 is, as 를 이용한 형식 체크 값 반환이 속도가 빠르다.
 
+## 테스트 환경
 ``` ini
 
 BenchmarkDotNet=v0.13.3, OS=Windows 11 (10.0.22000.1335/21H2)
@@ -13,8 +14,9 @@ Intel Core i7-6700 CPU 3.40GHz (Skylake), 1 CPU, 8 logical and 4 physical cores
   .NET 6.0 : .NET 6.0.12 (6.0.1222.56807), X64 RyuJIT AVX2
   .NET 7.0 : .NET 7.0.1 (7.0.122.56804), X64 RyuJIT AVX2
 
-
 ```
+
+## 결과
 |                              Method |      Job |  Runtime |      Mean |     Error |    StdDev |    Median |
 |------------------------------------ |--------- |--------- |----------:|----------:|----------:|----------:|
 |               ReturnStringValueCall | .NET 6.0 | .NET 6.0 | 0.3204 ns | 0.0966 ns | 0.2849 ns | 0.3017 ns |
