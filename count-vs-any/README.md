@@ -13,6 +13,7 @@ Intel Core i7-6700 CPU 3.40GHz (Skylake), 1 CPU, 8 logical and 4 physical cores
   .NET 6.0 : .NET 6.0.12 (6.0.1222.56807), X64 RyuJIT AVX2
   .NET 7.0 : .NET 7.0.1 (7.0.122.56804), X64 RyuJIT AVX2
 
+  
 ```
 
 ## 벤치마크 결과

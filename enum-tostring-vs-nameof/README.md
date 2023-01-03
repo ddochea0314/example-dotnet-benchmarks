@@ -3,6 +3,7 @@
 - enum 이름값을 string 변수로 사용해야할 때, `ToString` 보단 `nameof`를 사용하자.
 - enum 은 struct 타입이므로 ToString 사용시 boxing이 발생한다.
 
+## 벤치마크 환경
 ``` ini
 
 BenchmarkDotNet=v0.13.3, OS=Windows 11 (10.0.22000.1335/21H2)
@@ -14,6 +15,8 @@ Intel Core i7-6700 CPU 3.40GHz (Skylake), 1 CPU, 8 logical and 4 physical cores
 
 
 ```
+
+## 벤치마크 결과
 |       Method |      Job |  Runtime |       Mean |     Error |    StdDev |     Median |
 |------------- |--------- |--------- |-----------:|----------:|----------:|-----------:|
 | EnumToString | .NET 6.0 | .NET 6.0 | 30.9977 ns | 1.7511 ns | 5.1632 ns | 29.6397 ns |
