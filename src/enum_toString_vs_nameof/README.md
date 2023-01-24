@@ -1,4 +1,4 @@
-﻿# enum-tostring-vs-nameof
+# enum tostring vsnameof
 
 - enum 이름값을 string 변수로 사용해야할 때, `ToString` 보단 `nameof`를 사용하자.
 - enum 은 struct 타입이므로 ToString 사용시 boxing이 발생한다.
