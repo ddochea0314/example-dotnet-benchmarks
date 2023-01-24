@@ -1,10 +1,14 @@
 ﻿using BenchmarkDotNet.Attributes;
+using BenchmarkDotNet.Jobs;
 using BenchmarkDotNet.Running;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
 BenchmarkRunner.Run<BetterDictionaryUpdate>();
 
+[MemoryDiagnoser]
+[SimpleJob(runtimeMoniker: RuntimeMoniker.Net60)]
+[SimpleJob(runtimeMoniker: RuntimeMoniker.Net70)]
 public class BetterDictionaryUpdate
 {
     public readonly Guid _id;
