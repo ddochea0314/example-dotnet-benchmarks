@@ -16,7 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\better_dictionary_update\better_dictionary_update.csproj" />
+    <ProjectReference Include="..\..\src\better_dictionary_update\better_dictionary_update.csproj" />
   </ItemGroup>
 
 </Project>

@@ -11,7 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "enum_toString_vs_nameof", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "better_dictionary_update", "src\better_dictionary_update\better_dictionary_update.csproj", "{B1C7816F-88D0-4611-BDED-85CBEB05F06D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "better_dictionary_updateTests", "src\better_dictionary_updateTests\better_dictionary_updateTests.csproj", "{940986CD-4409-4EE0-B3DF-48CDE2F2D63C}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C3B044C9-F297-4262-AE35-7475188975C7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{4C6A5DF9-6175-44AC-B63D-3259CCC5279F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "better_dictionary_updateTests", "tests\better_dictionary_updateTests\better_dictionary_updateTests.csproj", "{9F6E4710-771D-4EE8-BB7D-02C99A649493}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,13 +39,20 @@ Global
 		{B1C7816F-88D0-4611-BDED-85CBEB05F06D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B1C7816F-88D0-4611-BDED-85CBEB05F06D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B1C7816F-88D0-4611-BDED-85CBEB05F06D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{940986CD-4409-4EE0-B3DF-48CDE2F2D63C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{940986CD-4409-4EE0-B3DF-48CDE2F2D63C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{940986CD-4409-4EE0-B3DF-48CDE2F2D63C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{940986CD-4409-4EE0-B3DF-48CDE2F2D63C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F6E4710-771D-4EE8-BB7D-02C99A649493}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F6E4710-771D-4EE8-BB7D-02C99A649493}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F6E4710-771D-4EE8-BB7D-02C99A649493}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F6E4710-771D-4EE8-BB7D-02C99A649493}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E0122108-8571-450A-9D9F-9E501108A200} = {C3B044C9-F297-4262-AE35-7475188975C7}
+		{D734D47D-6359-4D30-98E2-D2823DAF7FC2} = {C3B044C9-F297-4262-AE35-7475188975C7}
+		{78F686AA-F8C4-41FA-AE94-92916DB79A1C} = {C3B044C9-F297-4262-AE35-7475188975C7}
+		{B1C7816F-88D0-4611-BDED-85CBEB05F06D} = {C3B044C9-F297-4262-AE35-7475188975C7}
+		{9F6E4710-771D-4EE8-BB7D-02C99A649493} = {4C6A5DF9-6175-44AC-B63D-3259CCC5279F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {53B0420E-6E87-4907-83F7-C1F4A28BF45A}
