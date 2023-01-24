@@ -1,4 +1,4 @@
-# dynamic-slow-case
+# dynamic slow case
 
 - 느리다. 가급적 쓰지 않는게 좋다.
 - 안느릴 수 있는 케이스를 찾기가 어렵다.
