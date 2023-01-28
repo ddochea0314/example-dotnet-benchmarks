@@ -21,7 +21,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "count_vs_anyTests", "tests\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dynamic_slow_caseTests", "tests\dynamic_slow_caseTests\dynamic_slow_caseTests.csproj", "{DF629797-8B04-4295-8EC3-59A90567C8D7}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "enum_toString_vs_nameofTests", "tests\enum_toString_vs_nameofTests\enum_toString_vs_nameofTests.csproj", "{DAAFE1C9-1DBA-47A8-9795-CCE7422CEFFA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "better_stopwatch_createTests", "tests\better_stopwatch_createTests\better_stopwatch_createTests.csproj", "{FAF34134-1295-400C-943A-086785ED2A84}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "better_stopwatch_create", "src\better_stopwatch_create\better_stopwatch_create.csproj", "{6DBAB3C2-C4B2-4F91-8233-3D4EF1EAF0B3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "enum_toString_vs_nameofTests", "tests\enum_toString_vs_nameofTests\enum_toString_vs_nameofTests.csproj", "{CFB2DA17-BDE5-48ED-B72C-A24E7575A35B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,10 +61,18 @@ Global
 		{DF629797-8B04-4295-8EC3-59A90567C8D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DF629797-8B04-4295-8EC3-59A90567C8D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DF629797-8B04-4295-8EC3-59A90567C8D7}.Release|Any CPU.Build.0 = Release|Any CPU
-		{DAAFE1C9-1DBA-47A8-9795-CCE7422CEFFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DAAFE1C9-1DBA-47A8-9795-CCE7422CEFFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DAAFE1C9-1DBA-47A8-9795-CCE7422CEFFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DAAFE1C9-1DBA-47A8-9795-CCE7422CEFFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAF34134-1295-400C-943A-086785ED2A84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAF34134-1295-400C-943A-086785ED2A84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAF34134-1295-400C-943A-086785ED2A84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAF34134-1295-400C-943A-086785ED2A84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DBAB3C2-C4B2-4F91-8233-3D4EF1EAF0B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DBAB3C2-C4B2-4F91-8233-3D4EF1EAF0B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DBAB3C2-C4B2-4F91-8233-3D4EF1EAF0B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DBAB3C2-C4B2-4F91-8233-3D4EF1EAF0B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFB2DA17-BDE5-48ED-B72C-A24E7575A35B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFB2DA17-BDE5-48ED-B72C-A24E7575A35B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFB2DA17-BDE5-48ED-B72C-A24E7575A35B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFB2DA17-BDE5-48ED-B72C-A24E7575A35B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -73,7 +85,9 @@ Global
 		{98C80336-5CD2-47D4-9864-218F5EF5E3EF} = {4C6A5DF9-6175-44AC-B63D-3259CCC5279F}
 		{7E6316CC-A6FD-44A0-8373-9071CE89E32B} = {4C6A5DF9-6175-44AC-B63D-3259CCC5279F}
 		{DF629797-8B04-4295-8EC3-59A90567C8D7} = {4C6A5DF9-6175-44AC-B63D-3259CCC5279F}
-		{DAAFE1C9-1DBA-47A8-9795-CCE7422CEFFA} = {4C6A5DF9-6175-44AC-B63D-3259CCC5279F}
+		{FAF34134-1295-400C-943A-086785ED2A84} = {4C6A5DF9-6175-44AC-B63D-3259CCC5279F}
+		{6DBAB3C2-C4B2-4F91-8233-3D4EF1EAF0B3} = {C3B044C9-F297-4262-AE35-7475188975C7}
+		{CFB2DA17-BDE5-48ED-B72C-A24E7575A35B} = {4C6A5DF9-6175-44AC-B63D-3259CCC5279F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {53B0420E-6E87-4907-83F7-C1F4A28BF45A}
